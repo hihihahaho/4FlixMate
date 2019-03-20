@@ -27,6 +27,18 @@ app.get("/mate", function(req, res){
         description: 'this is fourflix page'
     })
 });
+app.get("/mate_success", function(req, res){
+    res.render('mate_success', {
+        title: 'fourflix',
+        description: 'this is fourflix page'
+    })
+});
+app.get("/mate_progress", function(req, res){
+    res.render('mate_progress', {
+        title: 'fourflix',
+        description: 'this is fourflix page'
+    })
+});
 app.get("/community", function(req, res){
     res.render('community', {
         title: 'fourflix',
